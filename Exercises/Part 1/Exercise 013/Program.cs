@@ -6,7 +6,10 @@ namespace exercise_13
   {
     public static void Main(string[] args)
     {
-      // Write your code here:
+      Console.WriteLine("Give a double number!");
+            string decimaltal = Console.ReadLine();
+            Console.WriteLine("You gave: " + decimaltal);
+
 
     }
   }
