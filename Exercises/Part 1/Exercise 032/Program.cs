@@ -8,9 +8,7 @@ namespace exercise_32
     {
       Console.WriteLine("Speak, friend, and enter!");
             string userinput = Console.ReadLine();
-            bool thrut = "Mello";
-            bool thrutvalue = true;
-            if (userinput = thrutvalue)
+            if (userinput == "Mellon")
             {
             Console.WriteLine("Welcome, friend");
             }
