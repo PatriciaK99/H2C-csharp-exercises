@@ -16,12 +16,12 @@ namespace exercise_38
             {
             break;
             }
-            if (number <0)
+            if (number <1)
             {
             sum = sum+1;  
             }
     }
-         Console.WriteLine("Total amount of negative numbers: " + sum);
+         Console.WriteLine("Total amount of numbers: " + sum);
 
 
     }
