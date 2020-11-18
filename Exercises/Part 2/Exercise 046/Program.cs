@@ -13,5 +13,6 @@ namespace exercise_46
         Console.WriteLine(count);
                 count++;
     }
+    }
   }
 }
