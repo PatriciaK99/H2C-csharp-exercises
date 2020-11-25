@@ -8,6 +8,7 @@ namespace exercise_65
     public static void Main(string[] args)
     {
       List<string> list = new List<string>();
+            int amount = 0;
       while (true)
       {
         string input = Console.ReadLine();
@@ -16,8 +17,9 @@ namespace exercise_65
           break;
         }
         list.Add(input);
+                amount = list.Count;
       }
-
+      Console.WriteLine(amount);
     }
   }
 }
