@@ -8,6 +8,7 @@ namespace exercise_66
     public static void Main(string[] args)
     {
       List<string> list = new List<string>();
+            int index =0;
       while (true)
       {
         string input = Console.ReadLine();
@@ -16,8 +17,10 @@ namespace exercise_66
           break;
         }
         list.Add(input);
+             index = list.Count   
       }
-
+      
+      Console.WriteLine([index]);
     }
   }
 }
