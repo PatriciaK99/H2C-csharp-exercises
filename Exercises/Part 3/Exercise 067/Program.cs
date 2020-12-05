@@ -21,6 +21,7 @@ namespace exercise_67
       }
       Console.WriteLine(list[0]);
             Console.WriteLine(list[index-1]);
+      
     }
   }
 }
