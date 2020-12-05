@@ -17,10 +17,10 @@ namespace exercise_66
           break;
         }
         list.Add(input);
-             index = list.Count   
+                 index = list.Count;  
       }
       
-      Console.WriteLine([index]);
+      Console.WriteLine(list[index-1]);
     }
   }
 }
