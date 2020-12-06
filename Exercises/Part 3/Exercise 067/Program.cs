@@ -20,7 +20,8 @@ namespace exercise_67
                 index = list.Count;
       }
       Console.WriteLine(list[0]);
-            Console.WriteLine(list[index-1])
+            Console.WriteLine(list[index-1]);
+      
     }
   }
 }
