@@ -6,10 +6,15 @@ namespace exercise_55
   {
     public static void Main(String[] args)
     {
-
+      int num = NumberUno();
+            Console.WriteLine(num);
+       NumberUno();
     }
-
+       
     // Write your method here:
-
+    public static int NumberUno()
+    {
+        return 1;
+        }
   }
 }
