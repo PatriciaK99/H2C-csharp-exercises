@@ -8,7 +8,13 @@ namespace exercise_86
     public static void Main(string[] args)
     {
 
-
+            string text = Console.ReadLine();
+            string[] pieces = text.Split(" ");
+           
+            for (int i = 0; i < pieces.Length; i++)
+            {
+                Console.WriteLine(pieces[i]);
+            }
     }
   }
 }
