@@ -8,12 +8,27 @@ namespace exercise_81
     public static void Main(string[] args)
     {
       // You can test your method here
-
+      int[] array = {5, 1, 3, 4, 2};
+            PrintNeatly(array);
     }
 
     public static void PrintNeatly(int[] array)
     {
-
+            int rad = array.Length;
+            int i = 1;
+            foreach (int number in array)
+            {
+                if (i < rad)
+                {
+                    Console.Write(number +", " );
+                    i++;
+                }
+            else  
+            {
+                Console.Write(number);
+                    Console.WriteLine();
+            }
+            }
     }
   }
 }
