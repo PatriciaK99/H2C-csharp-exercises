@@ -6,6 +6,8 @@ namespace exercise_85
   class Program
   {
     public static void Main(string[] args)
+
+            //put username and password in array, compare to userinput, loop
     {
     Console.WriteLine("Enter username: ");
             string inputusername = Console.ReadLine();
